@@ -1,0 +1,52 @@
+// Header and nav image
+@mixin main-image {
+    background-image: $main-bg-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// Main logo
+@mixin logo-size {
+    width: $logo-width;
+    height: $logo-height;
+}
+
+// Buttons
+@mixin button-styles {
+    background-color: $button-bg-color;
+    border: none;
+    border-radius: 10px;
+    color: $text-color;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+// Flex displays
+@mixin flex-display($display, $flex-wrap, $direction) {
+    display: $display;
+    flex-wrap: $flex-wrap;
+    flex-direction: $direction;
+}
+
+// Explore paragraphs formatting
+@mixin explore-text {
+    color: $text-color;
+    text-shadow: 0 0 2px $shadow-color;
+    padding: 5px;
+}
+
+// Review navigation
+@mixin review-nav {
+    position: absolute;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    color: $text-color;
+    background-color: #847b7b;
+    border: none;
+    cursor: pointer;
+}

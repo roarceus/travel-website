@@ -1,0 +1,30 @@
+$global-font: Arial;
+$roboto-font: var(--roboto);
+$main-bg-image: url(../images/japan_banner.jpg);
+
+// Logo sizing
+$logo-width: 110px;
+$logo-height: 40px;
+
+// Colors
+$main-bg-color: rgba(255, 255, 255, 0.7);
+$button-bg-color: rgba(241, 76, 0, 0.85);
+$button-bg-color-rgb: rgb(241, 76, 0);
+$secondary-bg-color: #e6e3e3;
+$navbar-hover-color: rgb(239, 69, 1);
+$text-color: rgb(255, 255, 255);
+$shadow-color: #000;
+$dropdown-bg-color: #f9f9f9;
+$dropdown-box-shadow-color: rgba(0,0,0,0.2);
+$dropdown-link-color: #000;
+$dropdown-content-hover-color: #ddd;
+$separator-color: #000;
+$nav-search-color: #000;
+$people-and-price-color: #847b7b;
+$city-name-color: #000;
+$city-rating-color: #ffd000;
+$package-description-color: #000;
+
+// Display style
+$display: flex;
+$flex-wrap: wrap;

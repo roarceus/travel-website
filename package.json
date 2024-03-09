@@ -1,0 +1,14 @@
+{
+  "name": "assignment-4-sohanp98",
+  "version": "1.0.0",
+  "description": "INFO 6150 Assignment 4",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/main.scss dist/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}

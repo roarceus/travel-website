@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Website</title>
+        <link rel="stylesheet" href="dist/main.css">
+        <!-- <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/body.css">
+        <link rel="stylesheet" href="styles/footer.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7a92b13b9d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+            <!-- Main div -->
+            <div id="main">
+                <!--Section for navigation bar -->
+                <section>
+                    <div id="header">
+                        <header>
+                            <div class="nav">
+                                <div class="navbar">
+                                    <nav>
+                                        <a href="#" id="travellogo">
+                                            <img src="images/travel_logo_header.png" alt="travel_logo" >
+                                        </a>
+                                        <a href="#">Home</a>
+                                        <a href="#">About</a>
+                                        <div class="dropdown">
+                                            <button class="servicesbtn">Services<i class="arrow down"></i></button>
+                                            <div class="dropdown-content">
+                                                <a href="#">Honeymoon Tours</a>
+                                                <a href="#">Tours Packages</a>
+                                                <a href="#">Musical Events</a>
+                                                <a href="#">Build Package</a>
+                                              </div>
+                                        </div>
+                                        <a href="#">Upcoming Packages</a>
+                                        <button type="submit" class="getintouch">Get in Touch</button>
+                                    </nav>
+                                </div>
+                                
+                                <!-- Header content section -->
+                                <div class="header-content">
+                                    <p class="header-heading">
+                                        No matter where <br /> you're going to, <br /> we'll take you there
+                                    </p>
+                                    <div class="nav-form">
+                                        <form action="" method="GET">
+                                            <input type="text" name="whereto" list="locations" pattern="^(Tokyo|Osaka|Kyoto|Sapporo|)$" class="whereto" placeholder="Where to?" minlength="3" maxlength="50" required>
+                                            <datalist id="locations">
+                                                <option value="Tokyo">Tokyo</option>
+                                                <option value="Osaka">Osaka</option>
+                                                <option value="Kyoto">Kyoto</option>
+                                                <option value="Sapporo">Sapporo</option>
+                                            </datalist>
+                                            <p class="separator">|</p>
+                                            <select name="travel-type" class="travel-type" required>
+                                                <option value="" selected disabled hidden>Travel type</option>
+                                                <option value="domestic">Domestic</option>
+                                                <option value="international">International</option>
+                                            </select>
+                                            <p class="separator">|</p>
+                                            <select name="duration" class="duration" required>
+                                                <option value="" selected disabled hidden>Duration</option>
+                                                <option value="five-days">5 days</option>
+                                                <option value="ten-days">10 days</option>
+                                                <option value="15-days">15 days</option>
+                                            </select>
+                                            <button type="submit" class="form-submit">Submit</button>
+                                        </form>
+                                    </div>
+                                    
+                                    <div class="header-booking">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                        <p> 2,500 booked Tomorrowland Event in last 25 hours</p>
+                                    </div>
+                                    
+                                </div> 
+                            </div>
+                            
+                            <!-- Header partners section -->
+                            <div class="header-partners">
+                                    <img src="images/fly_emirates.png" alt="fly_emirates">
+                                    <img src="images/trivago.png" alt="trivago">
+                                    <img src="images/airbnb.png" alt="airbnb">
+                                    <img src="images/turkish_airlines.png" alt="turkish_airlines">
+                                    <img src="images/swiss_airlines.png" alt="swiss_airlines">
+                            </div>
+                            
+                        </header>
+                    </div>
+                </section>
+                <!-- End of header section -->
+                
+                <!-- Main body section -->
+                <section>
+                    <div id="body-content">
+                        <div id="services">
+                            <p class="body-titles">Category</p>
+                            <p class="title-descriptions">We Offer Best Services</p>
+                            <div id="services-content">
+                                <dl>
+                                    <dt><img src="images/tour_guide.png" alt="tour_guide"><p>Guided Tours</p></dt>
+                                    <dd>Lorem ipsum dolor sit amet.</dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="images/flight.png" alt="flight"><p>Best Flight Options</p></dt>
+                                    <dd>Lorem ipsum dolor sit amet.</dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="images/religious_tours.png" alt="religious_tours"><p>Religious Tours</p></dt>
+                                    <dd>Lorem ipsum dolor sit amet.</dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="images/doctor.png" alt="doctor"><p>Medical insurance</p></dt>
+                                    <dd>Lorem ipsum dolor sit amet.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        
+                        <!-- Packages section -->
+                        <div id="packages">
+                                <div id="packages-image">
+                                    <img src="images/honeymoon.jpg" alt="honeymoon">
+                                </div>
+                                <div id="packages-content">
+                                        <p class="body-titles">Honeymoon specials</p>
+                                        <p class="title-descriptions">Our Romantic Tropical Destinations</p>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, blanditiis?</p>
+                                        <button type="submit" class="view-packages">View Packages</button>
+                                </div>
+                        </div>
+                        
+                        <!-- Features section -->
+                        <div id="features">
+                                <div id="features-content">
+                                        <p class="body-titles">Fast & Easy</p>
+                                        <p class="title-descriptions">Get Your Favorite Resort Bookings</p>
+                                        <ul class="features-list">
+                                            <li class="features-list-flex">
+                                                <div>
+                                                    <img src="images/destination.png" alt="destination">
+                                                </div>
+                                                
+                                                <div>
+                                                    <p>Choose Destination</p>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="features-list-flex">
+                                                <div>
+                                                    <img src="images/availability.png" alt="availability">
+                                                </div>
+                                                <div>
+                                                    <p>Check Availability</p>
+                                                    <p>Lorem ipsum dolor sit amet.</p>    
+                                                </div>
+                                            </li>
+                                            <li class="features-list-flex">
+                                                <div>
+                                                    <img src="images/car.png" alt="availability">
+                                                </div>
+                                                <div>
+                                                    <p>Let's Go</p>
+                                                    <p>Lorem ipsum dolor sit amet.</p>    
+                                                </div>
+                                            </li>
+                                        </ul>
+                                  
+                                </div>
+                                <div id="features-image">
+                                    <img src="images/japan_resort_booking.jpg" alt="japan_resort">
+                                </div>
+                        </div>
+            
+                        <!-- Travel image section -->
+                        <div id="travel-image">
+                            <img src="images/japan_travel.jpg" alt="japan-travel">
+                            <div class="travel-image-text">Let's Make Your <br /> Next Holiday Amazing</div>
+                        </div>
+                        
+                        <!-- Promotions section -->
+                        <div id="promotion">
+                                <div id="promotion-content">
+                                        <p class="body-titles">PROMOTION</p>
+                                        <p class="title-descriptions">We Provide You Best Japan Sightseeing Tours</p>
+                                        <p id="promotion-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti fugiat? Id incidunt qui veritatis. Consequuntur labore ipsam illum quaerat.</p>
+                                        <button type="submit" class="view-packages">View Packages</button>
+                                        
+                                </div>
+                                <div id="promotion-images">
+                                        <div class="promotion-image">
+                                            <img src="images/promotion_1.jpg" alt="promotion_1">
+                                            <button class="image-buttons">$1500</button>
+                                        </div>
+                                        <div class="promotion-image">
+                                            <img src="images/promotion_2.jpg" alt="promotion_2">
+                                            <button class="image-buttons">$800</button>
+                                        </div>
+                                        <div class="promotion-image">
+                                            <img src="images/promotion_3.jpg" alt="promotion_3">
+                                            <button class="image-buttons">$700</button>
+                                        </div>
+                                        <div class="promotion-image">
+                                            <img src="images/promotion_4.jpg" alt="promotion_4" id="promo-overlap">
+                                            <button class="image-buttons">$1200</button>
+                                        </div>
+                                        
+                                        <div id="promotion-image">
+                                            <img src="images/tokyo_tower.jpg" alt="tokyo_tower">
+                                        </div>
+                                </div>
+                                
+                        </div>
+
+                        <!-- Explore section -->
+                        <div id="explore-content">
+                            <div id="explore-nature">
+                                <div class="explore-images-1">
+                                    <img src="images/explore_japan_nature.jpg" alt="japan_nature">
+                                </div>
+                                <div class="explore-text">
+                                    <p>PROMOTION</p>
+                                    <p>Explore Nature</p>
+                                    <button type="submit" class="explore-buttons">View Packages</button>
+                                </div>
+                            </div>
+
+                            <div id="explore-cities">
+                                <div class="explore-images-2">
+                                    <img src="images/explore_japan_cities.jpg" alt="japan_cities">
+                                </div>
+                                <div class="explore-text">
+                                    <p>PROMOTION</p>
+                                    <p>Explore Cities</p>
+                                    <button type="submit" class="explore-buttons">View Packages</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- Trending packages section -->
+                        <div id="trending-packages">
+                            <div>
+                                <p class="body-titles">Trendy</p>
+                                <p class="title-descriptions">Out Trending Tour Packages</p>
+                            </div>
+                            
+
+                            <div id="packages-locations">
+                                <div id="tokyo"s>
+                                    <img src="images/tokyo.jpg" alt="tokyo" class="location-ref" >
+                                    <img src="images/japan_flag.jpg" alt="japan_flag">
+                                    <p class="package-info-days"><i class="fa fa-calendar"></i>&nbsp;&nbsp;10 days&nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i>&nbsp;&nbsp;50 people going</p>
+                                    <p class="package-city">Tokyo</p>
+                                    <p class="city-rating">★★★★★</p>
+                                    <p class="package-price">$1200 <s>$1500</s></p>
+                                    <p class="package-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quod deleniti corrupti ea incidunt iusto nesciunt beatae sit tempora quis in distinctio inventore, voluptatum ducimus, fugit qui molestiae enim expedita? Fugiat quae reprehenderit consequatur dolor repellendus labore suscipit maiores eos!</p>
+                                    <button type="submit" class="explore-location-buttons">Explore Now</button>
+                                </div>
+                                <div id="osaka">
+                                    <img src="images/osaka.jpg" alt="osaka" class="location-ref">
+                                    <img src="images/japan_flag.jpg" alt="japan_flag">
+                                    <p class="package-info-days"><i class="fa fa-calendar"></i>&nbsp;&nbsp;10 days&nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i>&nbsp;&nbsp;25 people going</p>
+                                    <p class="package-city">Osaka</p>
+                                    <p class="city-rating">★★★★★</p>
+                                    <p class="package-price">$1000 <s>$1200</s></p>
+                                    <p class="package-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quod deleniti corrupti ea incidunt iusto nesciunt beatae sit tempora quis in distinctio inventore, voluptatum ducimus, fugit qui molestiae enim expedita? Fugiat quae reprehenderit consequatur dolor repellendus labore suscipit maiores eos!</p>
+                                    <button type="submit" class="explore-location-buttons">Explore Now</button>
+                                </div>
+                                <div id="kyoto">
+                                    <img src="images/kyoto.jpg" alt="kyoto" class="location-ref">
+                                    <img src="images/japan_flag.jpg" alt="japan_flag">
+                                    <p class="package-info-days"><i class="fa fa-calendar"></i>&nbsp;&nbsp;5 days&nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i>&nbsp;&nbsp;40 people going</p>
+                                    <p class="package-city">Kyoto</p>
+                                    <p class="city-rating">★★★★★</p>
+                                    <p class="package-price">$1500 <s>$1800</s></p>
+                                    <p class="package-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quod deleniti corrupti ea incidunt iusto nesciunt beatae sit tempora quis in distinctio inventore, voluptatum ducimus, fugit qui molestiae enim expedita? Fugiat quae reprehenderit consequatur dolor repellendus labore suscipit maiores eos!</p>
+                                    <button type="submit" class="explore-location-buttons">Explore Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Reviews section -->
+                        <div id="reviews">
+                            <img src="images/photograph.png" alt="photograph" id="photograph">
+                            <img src="images/sakura.png" alt="sakura" id="sakura">
+                            <img src="images/travel.png" alt="travel" id="travel-review">
+                            <p class="body-titles">Promotion</p>
+                            <p class="title-descriptions">See what our clients say about us.</p>
+
+                            <div class="reviews">
+                                <img src="images/user_icon.png" alt="user-icon" id="reviewer-image">
+                                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, dolore?</p>
+                                <p class="reviewer-name">
+                                    Christine Beckam - Designer
+                                </p>
+                                <button id="arrow-left">←</button>
+                                <button id="arrow-right">→</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End of body section -->
+                
+                <!--Section for footer -->
+                <section>
+                    <footer>
+                        <div id="footer" class="footer-grid">
+                            <!-- Footer logo section -->
+                            <div id="footer-logo">
+                                <a href="#" id="footer-logo">
+                                    <img src="images/travel_logo_footer.png" alt="travel_logo">
+                                </a>
+                                <p id="footer-logo-text">Travel helps companies manage payments easily.</p>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-meta"></i></a>
+                            </div>
+                        
+                            <!-- Footer company list -->
+                            <div id="footer-company">
+                                <p class="footer-headings">Company</p>
+                                <ul class="footer-lists">
+                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                </ul>
+                            </div>
+                        
+                            <!-- Footer destination list -->
+                            <div id="footer-destinations">
+                                <p class="footer-headings">Destinations</p>
+                                <ul class="footer-lists">
+                                    <li><a href="#">Tokyo</a></li>
+                                    <li><a href="#">Osaka</a></li>
+                                    <li><a href="#">Kyoto</a></li>
+                                    <li><a href="#">Sapporo</a></li>
+                                </ul>
+                            </div>
+                        
+                            <!-- Footer newsletter -->
+                            <div id="footer-newsletter">
+                                <p class="footer-headings">Join Our Newsletter</p>
+                                <form action="newsletter" method="GET">
+                                    <div id="subscription">
+                                        <input type="email" id="email" name="email" placeholder="Your email address" type="email" required>
+                                        <button type="submit" class="getintouch" id="sub-button">Subscribe</button>
+                                    </div>
+                                    <p id="sub-message">* Will send you weekly updates for your better tour packages.</p>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Footer copyright -->
+                        <div id="footer-copyright">
+                            <div id="break-line"></div>
+                            <p id="copyright-text">Copyright @Sohan 2024. All rights Reserved.</p>
+                        </div>
+                    </footer>
+                </section>
+                <!-- End of footer section -->
+                
+            </div>
+            <!-- End of main div -->
+            
+    </body>
+</html>

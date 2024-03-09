@@ -1,0 +1,215 @@
+// Styling navigation bar and buttons
+.navbar {
+    @include main-image;
+    overflow: hidden;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    overflow: visible;
+    z-index: 1;
+
+    a {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        color: $text-color;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 3px solid $navbar-hover-color;
+        }
+    }
+
+}
+
+// Main site logo
+#travellogo {
+    @include logo-size;
+    margin: 0 10%;
+    border: none !important;
+
+    > img {
+        @include logo-size;
+    }
+}
+
+// Nav list styling
+// Creating space above navbar
+nav {
+    margin-top: 3%;
+}
+
+
+.nav {
+    @include main-image;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+    ul {
+        text-align: center;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+}
+
+.nav-link {
+    font: normal 500 15px/2px $roboto-font;
+    font-size: 20px;
+    padding: 2em;
+    color: $text-color;
+}
+
+.arrow {
+    border: solid $text-color;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 6px;
+    margin-bottom: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+// Navbar button
+.getintouch {
+    @include button-styles;
+}
+
+// Navbar alignment
+.servicesbtn {
+    font-weight: bold;
+}
+  
+// Dropdown container
+.dropdown {
+   float: left;
+   overflow: hidden;
+
+   .servicesbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: $text-color;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        
+        &:hover {
+            border-bottom: 3px solid $navbar-hover-color;
+       }
+
+    }
+}
+
+// Dropdown content
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $dropdown-bg-color;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px $dropdown-box-shadow-color;
+    border-radius: 10px;
+
+    a {
+        float: none;
+        color: $dropdown-link-color;
+        padding: 8px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 13px;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: $dropdown-content-hover-color;
+        }
+    }
+} 
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+// Styling navigation content
+.header-content {
+    margin: 130px 0 0 20%;
+}
+
+.header-heading {
+    color: $text-color;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+// Form elements
+.nav-form {
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    background: $main-bg-color;
+}
+
+.separator {
+    display: inline-block;
+    color: $separator-color;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+
+.form-submit {
+    @extend .getintouch;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: $button-bg-color-rgb;
+}
+
+.whereto, .travel-type, .duration {
+    position: relative;
+    font-size: 16px;
+    border: none;
+    color: $nav-search-color;
+    font-weight: bolder;
+    background: transparent;
+}
+
+// Extra header content
+.header-booking {
+    margin-top: 30px;
+    padding-bottom: 150px;
+    color: $text-color;
+
+    > p {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+} 
+
+// Header partners section
+.header-partners {
+    display: flex;
+    background: $secondary-bg-color;
+
+    > img {
+        flex-wrap: wrap;
+        flex-basis: auto;
+        flex-grow: 1;
+        flex-shrink: 2;
+        max-width: 20%;
+        max-height: 60px;
+        padding: 40px 80px;
+    }
+}
