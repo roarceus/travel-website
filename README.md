@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/J4-IMa8v)
-
 # Travel Website
 This is a travel website where users can choose to travel to many destinations.
 This website is built using HTML with minumum use of styling elements.
