@@ -18,17 +18,7 @@ This website is built using HTML with minumum use of styling elements.
 ## Tools
 **Tech used:** HTML, CSS, SCSS
 
-## Assignment Requirements
-Add layout on Assignment 3 web page as per the mock image and convert all CSS to SCSS syntax.
-
-1. The goal of this assignment is to learn about CSS positioning, Grid layout & Flexbox, and SCSS features like variables, mixins, inheritance, control statements, functions, operators, etc.
-2. SCSS should be organized into multiple files based on UI features, common elements, and themes.
-3. These SCSS files should be added to a main.scss file and this should be converted to a .css file using sass.
-4. The SCSS should be used to create modular and concise CSS code.
-5. The navbar should be fixed on the viewport.
-6. JavaScript is not required. This will not add more points to this assignment.
-7. Your site should look very close to the attached file on Assignment 3.
-8. You should not use the table element for formatting.
-9. You should add code documentation using SCSS comments.
-10. If any asset required for the page is missing then use the below links for placeholder assets.
-11. Can use icons from material design https://material.io/tools/icons/?style=baseline even if it doesn't match the UI mock.
+## Get this project
+1. Clone this project.
+2. Run the command ```npm install -save sass``` inside the cloned repository followed by ```npm run sass```. This will convert SCSS to CSS.
+3. Run the index.html manually or with Live Server.
