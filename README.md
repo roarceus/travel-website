@@ -1,6 +1,6 @@
 # Travel Website
 This is a travel website where users can choose to travel to many destinations.
-This website is built using HTML with minumum use of styling elements.
+This website is built using HTML with minimum use of styling elements.
 
 ## Sections in the Travel website
 **Navigation:** - Provided navigation bar with content about sponsors.
